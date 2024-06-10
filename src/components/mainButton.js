@@ -1,11 +1,9 @@
-function MainButton({ buttonText }) {
-  const handleButtonClick = () => {
-    console.log("CLICKED!");
-  };
-
+function MainButton({ buttonText, handleButtonClick }) {
   return (
     <div>
-      <button onClick={handleButtonClick}>{buttonText}</button>
+      <button onClick={handleButtonClick} className="bg-blue-200 w-full">
+        {buttonText}
+      </button>
     </div>
   );
 }
