@@ -3,7 +3,7 @@ import MainButton from "./mainButton";
 
 function LoginForm() {
   return (
-    <div>
+    <div className="bg-gray-200 shadow-lg">
       <h1>Login</h1>
       <InputField placeholder={"Enter username"} type={"text"} />
       <InputField placeholder={"Enter password"} type={"password"} />
