@@ -8,7 +8,7 @@ function LoginForm() {
       <InputField placeholder={"Enter username"} type={"text"} />
       <InputField placeholder={"Enter password"} type={"password"} />
 
-      <MainButton buttonText={"Login"} />
+      <MainButton buttonText={"charlie gwapo"} />
     </div>
   );
 }
